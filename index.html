@@ -62,7 +62,7 @@ return;
 result.textContent="Sending your link...";
 
 try{
-const response=await fetch("https://YOUR-VERCEL-DOMAIN/analyse",{
+const response=await fetch("https://cliprush-ai.vercel.app/analyse",{
 method:"POST",
 headers:{"Content-Type":"application/json"},
 body:JSON.stringify({url:url})
